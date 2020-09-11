@@ -1,3 +1,33 @@
+# Escalada Itabira
+TODO:
+- ordenamento de vias!! como fazer? - adicionar order - tem como criar um select com vias do setor atual (depois da via:x)? se sim, posso alterar um index dinamicamente, não só da adicionada mas das outras também - precisa ser bem testado - adição, remoção, edição pra menos, edição pra mais, edição de outros campos mantendo esse, placeholder pra primeira via
+- criar descrição/textos
+- inserir fotos (preciso subir pro github antes?)
+- criar logo
+- criar favicon
+- alterar filtro de setor pra selectbox - precisamos de setores antes hehe
+- pág pra conquistadores (antiga tag)
+- descrição pra markup pra poder inserir fotos
+- layout pag via
+- layout footer: ficar sempre no fim, estranho quando acaba antes
+- layout contato: colocar uma foto?
+- layout croquis: foto
+- nova pág: segurança
+- como chegar? uma página por croqui?
+- mais cód pra limpar?
+- redes sociais!
+- layout blubs pag inicial
+- melhorar pag contato
+
+- vias pra colocar:
+Pósartar (VIsup)
+Chama que enjambra (VIIa ??)
+Soterrado vivo (VIIb ??)
+Comboio de ovis (Vsup ??)
+Ato íntimo (Vsup ??)
+Intercâmbio regional (VIIIc ??)
+Entalamento humano que é um projeto de via em móvel
+
 # Gatsby + Netlify CMS Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b654c94e-08a6-4b79-b443-7837581b1d8d/deploy-status)](https://app.netlify.com/sites/gatsby-starter-netlify-cms-ci/deploys)
