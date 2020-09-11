@@ -1,24 +1,35 @@
 ---
 templateKey: index-page
 title: Escalada Itabira
-image: /img/home-jumbotron.jpg
+image: /img/rampa.png
 heading: Escalada Itabira
 subheading: Conheça os novos picos
 mainpitch:
   title: title
-  description: >
+  description: |
     descr1
-description: >-
-  descr2
+description: descr2
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/captura-de-tela-2020-09-11-às-00.02.19.png
       text: Serra dos Doze
       link: /rampa
-    - image: /img/coffee-gear.png
+    - image: /img/mountain1.jpg
       text: Candidópolis
       link: /candidopolis
   heading: Vários lugares pra escalar!
-  description: >
+  description: |
     descr...
+main:
+  heading: a
+  description: a
+  image2:
+    alt: a
+    image: /img/mountain1.jpg
+  image3:
+    alt: a
+    image: /img/mountain1.jpg
+  image1:
+    image: /img/mountain1.jpg
+    alt: a
 ---
