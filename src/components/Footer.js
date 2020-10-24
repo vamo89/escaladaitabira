@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import logo from "../img/logo.svg";
+import logolight from "../img/logolight.svg";
 import "./footer.sass";
 
 const Footer = class extends React.Component {
@@ -36,7 +36,7 @@ const Footer = class extends React.Component {
           </section>
           <div className="level level-item ">
             <img
-              src={logo}
+              src={logolight}
               alt="Escalada Itabira"
               className="level-item has-text-centered"
             />
