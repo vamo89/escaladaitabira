@@ -1,6 +1,6 @@
 # Escalada Itabira
 TODO:
-- ordenamento de vias!! como fazer? - adicionar order - tem como criar um select com vias do setor atual (depois da via:x)? se sim, posso alterar um index dinamicamente, não só da adicionada mas das outras também - precisa ser bem testado - adição, remoção, edição pra menos, edição pra mais, edição de outros campos mantendo esse, placeholder pra primeira via
+- ordenamento de vias!! como fazer? - adicionar order - tem como criar um select com vias do setor atual (depois da via:x)? se sim, posso alterar um index dinamicamente, não só da adicionada mas das outras também - precisa ser bem testado - adição, remoção, edição pra menos, edição pra mais, edição de outros campos mantendo esse, placeholder pra primeira via --- ordenamento dentro dos setores!
 - criar descrição/textos
 - inserir fotos (preciso subir pro github antes?)
 - criar logo
