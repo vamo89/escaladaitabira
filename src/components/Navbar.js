@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -44,9 +45,9 @@ const Navbar = class extends React.Component {
               className="navbar-item has-text-weight-bold"
               title="Logo"
             >
-              {/* <span className="icon">
+              <span className="icon icon-logo">
                 <img src={logo} alt="Escalada Itabira" />
-              </span> */}
+              </span>
               Escalada Itabira
             </Link>
             {/* Hamburger menu */}
@@ -54,6 +55,13 @@ const Navbar = class extends React.Component {
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
+              onKeyDown={(ev) => {
+                if (ev.key === "Enter") {
+                  this.toggleHamburger();
+                }
+              }}
+              role="menu"
+              tabIndex={0}
             >
               <span />
               <span />
