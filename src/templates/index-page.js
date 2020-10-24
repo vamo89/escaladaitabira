@@ -74,7 +74,7 @@ export const IndexPageTemplate = ({
                     <h3 className="has-text-weight-semibold is-size-2">
                       {title}
                     </h3>
-                    <p class="is-size-4">{description}</p>
+                    <p className="is-size-4">{description}</p>
                   </div>
                 </div>
                 <Features gridItems={intro.blurbs} />

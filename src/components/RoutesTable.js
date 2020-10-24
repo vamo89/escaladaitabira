@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, StaticQuery } from "gatsby";
-import Slider from "@material-ui/core/Slider";
+// import Slider from "@material-ui/core/Slider";
 
 const RoutesTable = ({ data, pico }) => {
   const { edges: posts } = data.allMarkdownRemark;
@@ -59,13 +59,13 @@ const RoutesTable = ({ data, pico }) => {
           />
         </>
       )} */}
-      <table className="is-multiline">
+      <table className="is-multiline routes-table">
         <thead>
           <tr>
             <th>Nome</th>
-            <th>Data da Conquista</th>
-            <th>Grau</th>
-            <th>Setor</th>
+            <th className="desktop-only">Data da Conquista</th>
+            <th className="desktop-only">Grau</th>
+            <th className="desktop-only">Setor</th>
           </tr>
         </thead>
         <tbody>
@@ -82,17 +82,17 @@ const RoutesTable = ({ data, pico }) => {
                       {post.frontmatter.nome}
                     </Link>
                   </td>
-                  <td>
+                  <td className="desktop-only">
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.dataConquista}
                     </span>
                   </td>
-                  <td>
+                  <td className="desktop-only">
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.grau}
                     </span>
                   </td>
-                  <td>
+                  <td className="desktop-only">
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.setor}
                     </span>
