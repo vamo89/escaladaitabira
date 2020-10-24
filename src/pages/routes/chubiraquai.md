@@ -8,5 +8,5 @@ nome: Chubiraquai
 altura: 25m
 dataConquista: 2020-05-18
 protecoes: 7 chapeletas + parada
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/rampa.png
 pico: Candidópolis

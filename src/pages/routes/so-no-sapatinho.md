@@ -8,5 +8,5 @@ nome: Só no sapatinho
 altura: '?'
 dataConquista: 2020-05-23
 protecoes: 17 chapeletas + 2 paradas
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/rampa.png
 pico: Candidópolis
