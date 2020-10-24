@@ -27,9 +27,8 @@ const RoutesTable = ({ data, pico }) => {
     .filter(({ node: post }) => !pico || post.frontmatter.pico === pico)
     .filter(
       ({ node: post }) =>
-        grauFilter[0] <=
-          numberToGrade.indexOf(post.frontmatter.grau) && numberToGrade.indexOf(post.frontmatter.grau) <=
-          grauFilter[1]
+        grauFilter[0] <= numberToGrade.indexOf(post.frontmatter.grau) &&
+        numberToGrade.indexOf(post.frontmatter.grau) <= grauFilter[1]
     )
     .filter(
       ({ node: post }) => !setorFilter || post.frontmatter.setor === setorFilter
@@ -37,7 +36,7 @@ const RoutesTable = ({ data, pico }) => {
 
   return (
     <>
-      {!!pico && (
+      {/* {!!pico && (
         <>
           Filtros: grau
           <Slider
@@ -50,16 +49,16 @@ const RoutesTable = ({ data, pico }) => {
             valueLabelFormat={gradeText}
             markLabel
             max={numberToGrade.length - 1}
-            style={{width:100}}
+            style={{ width: 100 }}
           />
-          setor{" "}
+          Setor
           <input
             type="text"
             name="setorFilter"
             onChange={(event) => setSetorFilter(event.target.value)}
           />
         </>
-      )}
+      )} */}
       <table className="is-multiline">
         <thead>
           <tr>
@@ -71,7 +70,8 @@ const RoutesTable = ({ data, pico }) => {
         </thead>
         <tbody>
           {posts &&
-            filteredPosts.slice(0, pico ? filteredPosts.length : 10)
+            filteredPosts
+              .slice(0, pico ? filteredPosts.length : 10)
               .map(({ node: post }) => (
                 <tr key={post.id}>
                   <td>
